@@ -1,0 +1,5 @@
+localhost:8080 {
+    tls self_signed
+	root * /app/dist
+	encode zstd gzip
+}
